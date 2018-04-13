@@ -1,0 +1,10 @@
+/* pages/list/list.wxss */
+@import "../templates/template.wxss";
+.swi_s{
+  width: 100%;
+  height: 400rpx
+}
+.swi_s image{
+  width:100%;
+  height:100%;
+}

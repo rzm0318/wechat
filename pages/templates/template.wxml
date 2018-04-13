@@ -1,0 +1,17 @@
+ <template name="listTemplate">
+   <view class="tmpContainer">
+      <view class="temp_title">
+        <image class="temp_avatar" src="{{avatar}}"></image>
+        <text class="temp_data">{{date}}</text>
+      </view>
+     <text class="title">{{title}}</text>
+      <image class="temp_big" src="{{detail_img}}"></image>
+      <text class="temp_content">{{detail_content}}</text>
+      <view class="temp_bottom">
+        <image class="temp_star" src="{{detail_love_image1}}"></image>
+        <text class="temp_star_test">{{love_count}}</text>
+        <image class="temp_view" src="{{detail_love_image2}}"></image>
+        <text class="temp_view_test">{{attention_count}}</text>
+      </view>
+   </view>
+  </template>

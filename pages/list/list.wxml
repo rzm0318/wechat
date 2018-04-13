@@ -1,0 +1,24 @@
+<import src="../templates/template.wxml"></import>
+<view>
+  <swiper class="swi_s" indicator-dots='true' indicator-color='deepPink'>
+    <swiper-item>
+      <image src="/images/detail/carousel/01.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/detail/carousel/02.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/detail/carousel/03.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/detail/carousel/04.jpg"></image>
+    </swiper-item>
+  </swiper>
+</view>
+<view wx:for="{{datas}}" wx:key="{{index}}" >
+  <view catchtap="goD" data-detailId="{{index}}">
+    <template is="listTemplate" data="{{...item}}"></template>
+  </view>
+
+</view>
+

@@ -1,0 +1,50 @@
+.tmpContainer{
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #7CDFED;
+  border-top: 1px solid #7CDFED;
+  margin-top: 10rpx;
+  padding:10rpx 0;
+}
+.temp_title{
+  margin: 5rpx;
+}
+.temp_avatar{
+  width:50rpx;
+  height:50rpx;
+  vertical-align: middle;
+}
+.temp_data{
+  margin: 10rpx;
+}
+.title{
+  font-size: 18px;
+  margin-left: 5px;
+  font-weight: bold;
+}
+.temp_big{
+  width: 100%;
+  height:400rpx;
+}
+.temp_content{
+  font-size: 14px;
+}
+.temp_star{
+  width:36rpx;
+  height:36rpx;
+  margin: 6rpx;
+  vertical-align: middle;
+}
+.temp_view{
+  width:40rpx;
+  height:40rpx;
+  vertical-align: middle;
+  margin: 6rpx;
+}
+.temp_star_test{
+  font-size: 16px;
+}
+.temp_view_test{
+  font-size: 16px;
+}
+
